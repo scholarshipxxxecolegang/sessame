@@ -21,9 +21,6 @@ const Navbar = () => {
           <a href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Fonctionnalités
           </a>
-          <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            GitHub
-          </a>
           <motion.a
             href="#"
             whileHover={{ scale: 1.04 }}
@@ -50,9 +47,6 @@ const Navbar = () => {
         >
           <a href="#features" onClick={() => setOpen(false)} className="block text-foreground font-medium">
             Fonctionnalités
-          </a>
-          <a href="#" className="block text-foreground font-medium">
-            GitHub
           </a>
           <a href="#" className="block gradient-accent text-primary-foreground font-semibold text-center py-3 rounded-lg">
             Télécharger

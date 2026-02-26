@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Download, Github, ChevronDown } from "lucide-react";
+import { Download, ChevronDown } from "lucide-react";
 import heroMockup from "@/assets/hero-mockup.png";
 
 const HeroSection = () => {
@@ -26,7 +26,7 @@ const HeroSection = () => {
               transition={{ delay: 0.2 }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-6"
             >
-              ✨ Gratuit • Open-Source • Sans Pub
+              ✨ Gratuit • Sans Pub • 100% Hors-ligne
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
@@ -61,16 +61,6 @@ const HeroSection = () => {
               </motion.a>
             </div>
 
-            <motion.a
-              href="#"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-              className="inline-flex items-center gap-2 mt-6 text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Github className="w-4 h-4" />
-              Voir sur GitHub
-            </motion.a>
           </motion.div>
 
           {/* Hero mockup */}

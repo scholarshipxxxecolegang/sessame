@@ -1,4 +1,4 @@
-import { Github, Mail, Shield } from "lucide-react";
+import { Mail, Shield } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -14,9 +14,6 @@ const Footer = () => {
 
           <div className="flex items-center gap-6">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1.5 text-sm">
-              <Github className="w-4 h-4" /> GitHub
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1.5 text-sm">
               <Mail className="w-4 h-4" /> Contact
             </a>
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1.5 text-sm">
@@ -27,7 +24,7 @@ const Footer = () => {
 
         <div className="text-center mt-8 pt-6 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} SESSAME. Open-source avec 💜
+            © {new Date().getFullYear()} SESSAME. Fait avec 💜
           </p>
         </div>
       </div>
