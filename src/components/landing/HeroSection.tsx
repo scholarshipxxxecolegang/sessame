@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Download, ChevronDown } from "lucide-react";
-import heroMockup from "@/assets/hero-mockup.png";
+import heroMockup from "@/assets/interface.png";
 
 const HeroSection = () => {
   return (
@@ -42,7 +42,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <motion.a
-                href="#"
+                href="/sessame.apk"
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl gradient-cta text-primary-foreground font-semibold text-lg shadow-glow animate-pulse-glow transition-all"

@@ -24,7 +24,7 @@ const Footer = () => {
 
         <div className="text-center mt-8 pt-6 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} SESSAME. Fait avec 💜
+            © {new Date().getFullYear()} SESSAME. Fait avec 💜 par Welcom Engondzi
           </p>
         </div>
       </div>

@@ -2,22 +2,82 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WBKCHF2Z");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SESSAME - Gère tes projets avec un Coach IA</title>
-    <meta name="description" content="Application mobile gratuite pour gérer tes projets personnels avec conseils IA intelligents et rappels motivants. Open-source, sans pub, 100% hors-ligne." />
+    <title>SESSAME | G&egrave;re tes projets personnels avec un coach IA</title>
+    <meta
+      name="description"
+      content="SESSAME est une application mobile gratuite pour suivre tes objectifs personnels, structurer tes projets et progresser avec un coach IA intelligent."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="author" content="SESSAME" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="SESSAME" />
+    <link rel="icon" type="image/x-icon" href="/favico.ico" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-    <meta property="og:title" content="SESSAME - Gère tes projets avec un Coach IA" />
-    <meta property="og:description" content="Application mobile gratuite pour gérer tes projets personnels avec conseils IA intelligents et rappels motivants." />
+    <meta property="og:title" content="SESSAME | G&egrave;re tes projets personnels avec un coach IA" />
+    <meta
+      property="og:description"
+      content="Application mobile gratuite pour organiser tes projets, suivre tes habitudes et rester motiv&eacute; gr&acirc;ce &agrave; un accompagnement IA."
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:image" content="/logo.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="SESSAME | G&egrave;re tes projets personnels avec un coach IA" />
+    <meta
+      name="twitter:description"
+      content="Une application mobile pour te fixer des objectifs, suivre ta progression et passer &agrave; l&rsquo;action avec un coach IA."
+    />
+    <meta name="twitter:image" content="/logo.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "SESSAME",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "Android",
+        "description": "Application mobile de suivi personnel pour g\u00e9rer ses projets et objectifs avec un coach IA.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        }
+      }
+    </script>
   </head>
 
   <body>
+    <noscript>SESSAME n&eacute;cessite JavaScript pour fonctionner correctement.</noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WBKCHF2Z"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   </body>
 </html>

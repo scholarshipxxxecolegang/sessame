@@ -1,0 +1,16 @@
+{
+  "name": "SESSAME",
+  "short_name": "SESSAME",
+  "description": "Application mobile de suivi personnel avec coach IA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favico.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -22,7 +22,7 @@ const Navbar = () => {
             Fonctionnalités
           </a>
           <motion.a
-            href="#"
+            href="/sessame.apk"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg gradient-accent text-primary-foreground font-semibold text-sm"
@@ -48,7 +48,7 @@ const Navbar = () => {
           <a href="#features" onClick={() => setOpen(false)} className="block text-foreground font-medium">
             Fonctionnalités
           </a>
-          <a href="#" className="block gradient-accent text-primary-foreground font-semibold text-center py-3 rounded-lg">
+          <a href="/sessame.apk" className="block gradient-accent text-primary-foreground font-semibold text-center py-3 rounded-lg">
             Télécharger
           </a>
         </motion.div>

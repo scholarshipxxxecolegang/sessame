@@ -23,7 +23,7 @@ const CTASection = () => {
               Zéro pub, zéro tracking, juste de l'IA motivante pour t'aider à avancer.
             </p>
             <motion.a
-              href="#"
+              href="/sessame.apk"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               className="inline-flex items-center gap-3 px-10 py-5 rounded-xl bg-card text-foreground font-bold text-lg shadow-lg hover:shadow-xl transition-shadow"
